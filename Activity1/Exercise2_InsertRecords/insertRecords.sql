@@ -3,7 +3,6 @@
 INSERT INTO "SubContractor" (s_lname, s_fname , salary ) 
 	VALUES();
 	
-
 INSERT INTO "Builder" (b_lname, b_fname  , license  ) 
 	VALUES();
 
