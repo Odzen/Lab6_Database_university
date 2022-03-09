@@ -54,7 +54,7 @@ CREATE TABLE "House" (
   	hid SERIAL PRIMARY KEY,
   	h_name VARCHAR(30) NOT NULL,
   	finish_date DATE NOT NULL,
-  	Price INT NOT NULL,
+  	price INT NOT NULL,
   	bid INT,
 	nid INT,
 	CONSTRAINT "FK_House.bid"
