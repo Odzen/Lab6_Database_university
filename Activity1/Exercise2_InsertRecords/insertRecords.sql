@@ -17,13 +17,13 @@ TRUNCATE  "SubContractor","Builder","Neighborhood","HireInfo", "House" CASCADE;
 INSERT INTO "SubContractor" (s_lname, s_fname, salary) 
 	VALUES  ('Velasquez', 'Juan', 1000000),
 			('Tovar', 'Carlos', 500000),
-			('Medina', 'Jorge', 1500000),
-			('Ascanio', 'Allison', 2000000),
+			('Medina', 'Jorge', 150000024),
+			('Ascanio', 'Allison', 200000056),
 			('Cardona', 'Victoria', 3980000),
 			('Pinzon', 'Jhon', 5480123),
-			('Petro', 'Gustavo', 2034223),
+			('Petro', 'Gustavo', 20342232),
 			('Uribe', 'Alvaro', 18934625),
-			('Garzon', 'Gabriel', 123067);
+			('Garzon', 'Gabriel', 12306734);
 	
 INSERT INTO "Builder" (b_lname, b_fname,license) 
 	VALUES  ('Garcia', 'Juan', 'A123'),
