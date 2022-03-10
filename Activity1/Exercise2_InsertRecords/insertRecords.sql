@@ -57,16 +57,20 @@ INSERT INTO "HireInfo" (bid , sid , hire_date )
 			(9,4,'2019-07-07');
 
 INSERT INTO "House" (h_name , finish_date , price, bid, nid) 
-	VALUES  ('Las consultas', '2022-01-12', 450234123,2, 1),
-			('La cumbre', '1998-02-23', 120345321,3, 3),
-			('Mi casa', '2003-03-03', 345234765,3, 4),
-			('Just flow', '2008-09-07', 356736498,4, 4),
-			('La sucursal', '2012-12-14', 70000000,9, 7),
-			('La casa de Melba', '2017-02-15', 345234765,9, 2),
-			('El paraiso', '2008-01-16', 12345237,8, 9);
+	VALUES  ('Las consultas', '2022-01-12', 450234123, 2, 1),
+			('La cumbre', '1998-02-23', 120345321, 3, 3),
+			('Mi casa', '2003-03-03', 345234765, 3, 4),
+			('Just flow', '2008-09-07', 356736498, 4, 4),
+			('La sucursal', '2012-12-14', 70000000, 9, 7),
+			('La casa de Melba', '2017-02-15', 345234765, 9, 2),
+			('El paraiso', '2008-01-16', 12345237, 8, 9),
+			('Casa1', '2000-01-12', 124345632, 7, 1),
+			('Casa2', '1945-01-12', 98876443, 9, 4),
+			('Casa3', '1945-01-12', 3423456, 2, 2),
+			('Casa4', '1934-01-12', 34234545, 5, 3),
+			('Casa5', '2002-01-12', 9876543, 6, 1);
 
 -- SELECT FOR CHECK THE CONTENT OF EACH TABLE TESTING
-
 SELECT * FROM "SubContractor";
 SELECT * FROM "Builder";
 SELECT * FROM "Neighborhood";
