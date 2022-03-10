@@ -28,7 +28,7 @@ CREATE TABLE "Builder" (
 	bid SERIAL PRIMARY KEY,
 	b_lname VARCHAR(30) NOT NULL,
 	b_fname VARCHAR(30) NOT NULL,
-	license INT NOT NULL
+	license VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE "Neighborhood" (
