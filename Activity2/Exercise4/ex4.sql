@@ -9,5 +9,4 @@ SELECT "SubContractor".s_lname AS "Apellido_Subcontratista",
 		"SubContractor".salary AS "Salario_subcontratista"
 FROM "HireInfo"
 NATURAL JOIN "SubContractor"
-NATURAL JOIN "Builder"
-LIMIT 11;
+NATURAL JOIN "Builder";

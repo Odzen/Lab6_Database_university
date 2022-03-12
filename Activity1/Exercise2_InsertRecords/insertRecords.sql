@@ -23,7 +23,12 @@ INSERT INTO "SubContractor" (s_lname, s_fname, salary)
 			('Pinzon', 'Jhon', 5480123),
 			('Petro', 'Gustavo', 20342232),
 			('Uribe', 'Alvaro', 1893462),
-			('Garzon', 'Gabriel', 1306734);
+			('Garzon', 'Gabriel', 1202734),
+			('Lisboa', 'Miguel', 2306734),
+			('Santos', 'Marcos', 2306134),
+			('Peralta', 'Lina', 1306434),
+			('Betancurt', 'Ingrid', 1336734),
+			('Castro', 'Sofia', 1306736);
 	
 INSERT INTO "Builder" (b_lname, b_fname,license) 
 	VALUES  ('Garcia', 'Juan', 'A123'),
@@ -51,10 +56,14 @@ INSERT INTO "HireInfo" (bid , sid , hire_date )
 	VALUES  (1,2,'2022-01-26'),
 			(3,1,'2022-02-12'),
 			(1,3,'2019-03-03'),
-			(2,2,'2018-04-02'),
+			(2,5,'2018-04-02'),
 			(6,7,'2008-05-08'),
 			(8,8,'2021-06-30'),
-			(9,4,'2019-07-07');
+			(9,4,'2019-07-07'),
+			(9,11,'2019-07-07'),
+			(4,13,'2019-07-07'),
+			(4,12,'2019-07-07'),
+			(5,9,'2019-07-07');
 
 INSERT INTO "House" (h_name , finish_date , price, bid, nid) 
 	VALUES  ('Las consultas', '2022-01-12', 450234123, 2, 1),
