@@ -39,7 +39,8 @@ INSERT INTO "Builder" (b_lname, b_fname,license)
 			('Messi', 'Lionel', 'A645'),
 			('Zuckerberg', 'Marck', 'B123'),
 			('Valdez', 'Ramiro', 'R123'),
-			('Perez', 'Pepito', 'A123');
+			('Perez', 'Pepito', 'A123'),
+			('Jimenez', 'David', 'A123');
 
 INSERT INTO "Neighborhood" (n_name , city ) 
 	VALUES ( 'Bella', 'Usaquen'),

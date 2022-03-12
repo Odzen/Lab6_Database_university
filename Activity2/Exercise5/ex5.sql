@@ -6,5 +6,4 @@
 SELECT "Builder".b_lname AS "Constructor_Apellido", "House".h_name AS "Nombre_casa"
 FROM "Builder"
 NATURAL LEFT JOIN "House"
-ORDER BY "Builder".b_lname
-LIMIT 14;
+ORDER BY "Builder".b_lname;
