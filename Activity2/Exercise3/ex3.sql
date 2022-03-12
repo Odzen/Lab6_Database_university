@@ -7,5 +7,5 @@
 SELECT CONCAT("Builder".b_fname, ' ', "Builder".b_lname) AS "Full_Name"
 FROM "Builder"
 NATURAL JOIN "House"
-ORDER BY "Builder".b_lname
-LIMIT 8;
+GROUP BY "Full_Name", "Builder".b_lname
+ORDER BY "Builder".b_lname;
