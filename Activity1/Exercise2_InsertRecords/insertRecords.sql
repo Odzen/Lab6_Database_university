@@ -22,8 +22,8 @@ INSERT INTO "SubContractor" (s_lname, s_fname, salary)
 			('Cardona', 'Victoria', 3980000),
 			('Pinzon', 'Jhon', 5480123),
 			('Petro', 'Gustavo', 20342232),
-			('Uribe', 'Alvaro', 18934625),
-			('Garzon', 'Gabriel', 12306734);
+			('Uribe', 'Alvaro', 1893462),
+			('Garzon', 'Gabriel', 1306734);
 	
 INSERT INTO "Builder" (b_lname, b_fname,license) 
 	VALUES  ('Garcia', 'Juan', 'A123'),
